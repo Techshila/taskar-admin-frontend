@@ -1,3 +1,4 @@
+import { Card } from "@/components/ui/card"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Separator } from "@/components/ui/separator"
 
@@ -72,13 +73,10 @@ const issues = [
 
 export default function Transactions() {
     return (
-        <div>
-            <ScrollArea className="h-[496px] w-80 rounded-md border">
-                <div className="p-4">
-                    <h4 className="mb-4 text-sm font-medium leading-none">Transactions</h4>
-                    
-                </div>
+        <Card>
+            <ScrollArea className="h-[70vh] w-80 rounded-md border">
+                
             </ScrollArea>
-        </div>
+        </Card>
     )
 }

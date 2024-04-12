@@ -73,7 +73,7 @@ const issues = [
 export default function Issues() {
     return (
         <div>
-            <ScrollArea className="h-80 w-80 rounded-md border">
+            <ScrollArea className="h-[70vh] w-80 rounded-md border">
                 <div className="p-4">
                     <h4 className="mb-4 text-sm font-medium leading-none">Issues</h4>
                     {issues.map((issue) => (
